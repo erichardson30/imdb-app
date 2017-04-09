@@ -1,0 +1,19 @@
+{
+  "name": "imdb-api",
+  "version": "1.0.0",
+  "description": "Node/Express API for IMDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": "https://github.com/erichardson30/imdb-app.git",
+  "author": "Eric Richardson <eric.richardson30@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "imdb-api": "^2.2.2"
+  }
+}
