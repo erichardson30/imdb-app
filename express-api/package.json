@@ -4,7 +4,8 @@
   "description": "Node/Express API for IMDB",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": "https://github.com/erichardson30/imdb-app.git",
   "author": "Eric Richardson <eric.richardson30@gmail.com>",
