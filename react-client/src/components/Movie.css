@@ -1,0 +1,30 @@
+.movie-container {
+  background: white;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto; }
+
+.movie-container .close-button {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  float: right;
+  background: transparent;
+  border: none; }
+
+.movie-container .movie-title {
+  border-bottom: 1px solid #ddd;
+  font-size: 50px; }
+
+.movie-container .movie-plot {
+  padding: 15px; }

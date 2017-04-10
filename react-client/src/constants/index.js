@@ -1,2 +1,5 @@
-export const LOGIN_USER = 'LOGIN_USER';
-export const LOG_OUT_USER = 'LOG_OUT_USER';
+export const SEARCH_REQUEST = 'SEARCH_REQUEST';
+export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
+export const SEARCH_FAILURE = 'SEARCH_FAILURE';
+export const UPDATE_QUERY = 'UPDATE_QUERY';
+export const CLEAR_SEARCH = 'CLEAR_SEARCH';
