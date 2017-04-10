@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import './SearchForm.css';
 
+// Search form component to allow a user to search a movie title
 const SearchForm = ( { query, onSearchCLick, onTextChange, results }) => {
   const handleChange = (event) => {
     onTextChange(event.target.value);
@@ -15,7 +16,8 @@ const SearchForm = ( { query, onSearchCLick, onTextChange, results }) => {
         <input type='text' placeholder='Search a title' onChange={handleChange}/>
         <button type='button' onClick={handleClick}>Search</button>
       </div>
-      {(results && results.type==='tv') ? <div className="error">Sorry, we are not fans of TV shows here. Please search a movie instead.</div> : null}
+      {(results && results.data.type==='tv') ? <div className="error">Sorry, we are not fans of TV shows here. Please search a movie instead.</div> : null}
+      {(results && results.data.message) ? <div className="error">{results.data.message}</div> : null}
     </div>
   );
 };

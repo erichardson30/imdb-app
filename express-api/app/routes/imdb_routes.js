@@ -1,6 +1,7 @@
 const imdb = require('imdb-api');
 
-module.exports = function(app, cors) {
+// searches IMDB for a title and returns a movie or formats the episode data for TV shows
+module.exports = function(app) {
     app.get('/search', (req, res) => {
         imdb.get(req.query.title, (err, response) => {
             if(err) res.send(err);

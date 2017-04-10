@@ -17,6 +17,7 @@
   font-size: 30px; }
 
 .search-form .error {
+  padding-top: 10px;
   color: red; }
 
 .search-form .search-form-row {
@@ -30,7 +31,7 @@
   padding: 10px; }
 
 .search-form .search-form-row input:focus {
-  outline: red auto 5px; }
+  outline: blue auto 5px; }
 
 .search-form .search-form-row button {
   cursor: pointer;

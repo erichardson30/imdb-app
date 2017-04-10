@@ -13,18 +13,15 @@
   display: flex;
   flex-direction: column;
   overflow: auto; }
-
-.movie-container .close-button {
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  float: right;
-  background: transparent;
-  border: none; }
-
-.movie-container .movie-title {
-  border-bottom: 1px solid #ddd;
-  font-size: 50px; }
-
-.movie-container .movie-plot {
-  padding: 15px; }
+  .movie-container .close-button {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    float: right;
+    background: transparent;
+    border: none; }
+  .movie-container .movie-title {
+    border-bottom: 1px solid #ddd;
+    font-size: 50px; }
+  .movie-container .movie-plot {
+    padding: 15px; }

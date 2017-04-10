@@ -5,9 +5,9 @@ export const search = (state = {}, action) => {
     case SEARCH_REQUEST :
       return {...state,isFetching: true}
     case SEARCH_SUCCESS :
-      return {...state, isFetching: false, results: action.results}
+      return {...state, isFetching: false, results: action.results, query: ''}
     case SEARCH_FAILURE :
-      return {...state, isFetching: false, error: action.error}
+      return {...state, isFetching: false, error: action.error, query: ''}
     case UPDATE_QUERY : 
       return {...state, query: action.query}
     case CLEAR_SEARCH :

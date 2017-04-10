@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/img/theater.jpg';
 import './App.css';
 
+// wrapper component for application
 const  App = ( { children }) => (
   <div className="App">
     <div className="App-header">

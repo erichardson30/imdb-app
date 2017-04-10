@@ -5,6 +5,7 @@ import SearchForm from '../components/SearchForm';
 import Movie from '../components/Movie';
 import './Search.css';
 
+// Search container that wraps the search form and movie. Manages state of components
 class Search extends Component {
   render() {
     const {query, onSearchCLick, onTextChange, results, clearSearch} = this.props;
@@ -16,7 +17,7 @@ class Search extends Component {
             onTextChange={onTextChange}
             results={results}
           />
-          {(results && results.type === 'movie') ? <Movie movie={results} clearSearch={clearSearch}/> : null}
+          {(results && results.data.type === 'movie') ? <Movie movie={results} clearSearch={clearSearch}/> : null}
         </div>
      )
   }

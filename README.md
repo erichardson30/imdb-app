@@ -3,6 +3,8 @@ To run this project, please install [Docker](www.docker.com)
 
 In the root directory, run `docker compose up` to install all dependencies and start both applications.
 
+In the root directory, run `docker compose up --build` if changes are made to apps and need to be re-deployed.
+
 # Application
 This application interfaces with the [IMDB api](https://www.npmjs.com/package/imdb-api) and searches for a movie title, returning back a single match.
 
