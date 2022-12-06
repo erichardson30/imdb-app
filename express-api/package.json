@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "cors": "^2.8.3",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "imdb-api": "^2.2.2"
   }
 }
